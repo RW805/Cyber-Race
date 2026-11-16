@@ -51,7 +51,7 @@ def apply_settings(settings):
     _fonts.clear()
     _track_surface = None
 
-print("Demo")
+
 # --- Layout helpers ------------------------------------------------------------
 def sz(v):
     """Scale a size by the text-size setting, so boxes grow with their text."""
