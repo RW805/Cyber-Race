@@ -43,7 +43,7 @@ def fonts():
         _fonts.update(theme.load_fonts())
     return _fonts
 
-print("Demo")
+
 def apply_settings(settings):
     """Switch to new accessibility settings: new palette, fonts and track drawing."""
     global _track_surface
@@ -51,7 +51,7 @@ def apply_settings(settings):
     _fonts.clear()
     _track_surface = None
 
-
+print("Demo")
 # --- Layout helpers ------------------------------------------------------------
 def sz(v):
     """Scale a size by the text-size setting, so boxes grow with their text."""
