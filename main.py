@@ -36,14 +36,14 @@ WRONG_ANSWER_PENALTY = 10.0  # seconds added to the race time for a wrong answer
 _track_surface = None
 _fonts = {}
 
-print("Demo")
+
 def fonts():
     """All fonts, sized for the current text-size setting. Loaded after pygame.init()."""
     if not _fonts:
         _fonts.update(theme.load_fonts())
     return _fonts
 
-
+print("Demo")
 def apply_settings(settings):
     """Switch to new accessibility settings: new palette, fonts and track drawing."""
     global _track_surface
